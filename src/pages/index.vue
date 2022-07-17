@@ -7,9 +7,11 @@
         src="https://vuejsforge.com/images/logo.svg"
         alt="Vue.js Forge"
       />
-      <AppButton class="block">
-        <a href="https://vi.to/hubs/vuejs-forge/" target="_blank">Get Started</a>
-      </AppButton>
+      <button class="inline-block p-2 bg-teal-300 rounded">
+        <a href="https://vi.to/hubs/vuejs-forge/" target="_blank"
+          >Get Started</a
+        >
+      </button>
     </div>
   </div>
 </template>
