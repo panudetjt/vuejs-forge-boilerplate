@@ -1,8 +1,9 @@
-<script setup lang="ts">
-import { Button as KButton } from "@progress/kendo-vue-buttons";
-</script>
+<script setup lang="ts"></script>
 <template>
-  <KButton v-bind="$attrs">
+  <button
+    class="inline-block p-2 bg-teal-300 rounded drop-shadow"
+    v-bind="$attrs"
+  >
     <slot></slot>
-  </KButton>
+  </button>
 </template>
